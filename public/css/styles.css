@@ -1,0 +1,39 @@
+body{
+    color:green;
+    max-width: 631px;
+    margin:0 auto;
+    padding:0 16px;
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+
+}
+.main-content{
+    flex-grow: 1;
+}
+footer{
+    color:saddlebrown;
+}
+header{
+    color: gray;
+}
+header a{
+    text-decoration: none;
+    margin-right: 18px;
+    font-weight:bold;
+}
+img{
+    width:500px;
+}
+input{
+    border:1px solid greenyellow;
+    padding:8px;
+
+}
+button{
+    cursor:pointer;
+    background-color: gray;
+    color:white;
+    padding:5px;
+    
+}
