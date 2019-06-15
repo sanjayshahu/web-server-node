@@ -91,6 +91,7 @@ app.get('*', (req, res) => {
     });
 
 })
+//starting the server
 app.listen("3001", () => {
     console.log("sever is up at 3001")
 })
