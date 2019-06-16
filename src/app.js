@@ -5,6 +5,8 @@ var forecast = require('./../utils/forecast');
 const hbs = require('hbs');
 const app = express();
 
+const port=process.env.PORT ||3001;
+
 //dynamic related
 app.set('view engine', 'hbs');
 const viewDirectoryPath = path.join(__dirname, '../templates/views');
@@ -92,6 +94,6 @@ app.get('*', (req, res) => {
 
 })
 //starting the server
-app.listen("3001", () => {
-    console.log("sever is up at 3001")
+app.listen(port, () => {
+    console.log("sever is up at "+port)
 })
